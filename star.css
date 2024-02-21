@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(uiwyntra\ 2.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+
+/* ======================navbar============ */
+.main {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color:white;
+    z-index: 600;
+}
+
+.logo img {
+    float: left;
+    height: 50px;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+ul {
+    padding-right: 160px;
+    margin-left: 250px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+li a {
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 80px;
+}
+
+li a:hover {
+    color: magenta;
+}
+
+
+button{
+    background-color:black;
+    color: white; 
+    padding: 5px;
+}
+
+
+/* ===================deals=============== */
+.box{
+    width: 98%;
+    height: 26.4vh;
+    background-color: #ffcccb;
+    margin-left: 15px;
+}
+
+/* ==================trendiest================ */
+.box2{
+    width: 98%;
+    height: 37.5vh;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+
+/* ==================trendiest================ */
+.box3{
+    width: 100%;
+    height: 90vh;
+    background-color:aliceblue;
+    margin-top: 50px;
+}
+
+
+/* ================contactus================ */
+.container p{
+    color: grey;
+}
+
+
+
+.card-text{
+    color: lightgray;
+}
+.card-title{
+    color: lightgray;
+}
